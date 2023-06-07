@@ -1,0 +1,68 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:10px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+border-bottom: 1px #13265E ;
+background-color: #13265E;
+}
+
+.navbar .navbar-logo img {
+
+    margin-left: 45px;
+
+}
+
+.navbar .navbar-nav a {
+
+    color: white;
+    font-size: 20px;
+    margin: 0px 20px;
+    display: inline-block;
+
+}
+
+.berita-proyek{
+    margin-top: 120px;
+    
+}
+.berita-proyek img {
+    width: 850px ;
+    height: 474px ;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.berita-proyek .teks-berita {
+    margin-left:50px ;
+    margin-right: 450px;
+    text-align: justify;
+}
+h1{
+    margin-left:50px ;
+    margin-right: 450px;
+}
+

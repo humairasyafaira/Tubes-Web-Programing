@@ -1,0 +1,72 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+    
+
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background-color: black;
+color: white;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:10px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+border-bottom: 1px #A3A5AB ;
+background-color: #A3A5AB;
+}
+
+.navbar .navbar-logo img {
+
+    margin-left: 45px;
+
+}
+
+.navbar .navbar-nav a {
+
+    color: black;
+    font-size: 20px;
+    margin: 0px 20px;
+    display: inline-block;
+
+}
+
+.profil-walikota {
+    display: flex;
+    margin-left: 130px;
+    margin-top: 130px;
+    margin-right: 100px;
+}
+
+.walikota {
+    display: flex;
+    align-items:flex-start;
+
+    text-align: justify;
+   
+}
+
+.teks-walikota {
+    margin-left: 20px;
+    margin-top: 170px;
+}
+p{
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: justify;
+    margin-top: 20px;
+}
