@@ -66,7 +66,7 @@
         </div>
     
         <div class="visi-misi">
-            <a href="pr"><img src="img/visi misi.png" alt="" width= 160px></a>
+            <a href="profil/visimisi.php"><img src="img/visi misi.png" alt="" width= 160px></a>
             <h3>Visi Misi</h3>
         </div>
       </div>

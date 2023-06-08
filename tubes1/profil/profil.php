@@ -30,9 +30,9 @@
     <div class="navbar-nav">
   
         <a href="../index.php">Beranda</a>
-        <a href="#profil">Profil</a>
-        <a href="#berita">Berita</a>
-        <a href="#Layanan">Layanan Publik</a>
+        <a href="../index.php">Profil</a>
+        <a href="../index.php">Berita</a>
+        <a href="../index.php">Layanan Publik</a>
   
     </div>
 

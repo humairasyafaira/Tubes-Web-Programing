@@ -44,16 +44,16 @@ $query = query("SELECT * FROM berita");
     <div class="main-body">
       <h2>Dashboard</h2>
       <div class="promo_card">
-        <h1>Welcome to EasyPay</h1>
-        <span>Lorem ipsum dolor sit amet.</span>
-        <button>Learn More</button>
+        <h1> Admin Sizelton</h1>
+        <span>Berita yang telah anda upload.</span>
+        <!-- <button>Learn More</button> -->
       </div>
 
       <div class="history_lists" id="dashboard">
         <div class="list1">
           <div class="row">
             <h4>History</h4>
-            <a href="#">See all</a>
+            <!-- <a href="#">See all</a> -->
           </div>
           <table>
             <thead>

@@ -25,7 +25,7 @@ body{
   align-items: center;
 }
 .logo a{
-  color: #000;
+  color: #13265E;
   font-size: 18px;
   font-weight: 600;
   margin: 2rem 8rem 2rem 2rem;
@@ -45,7 +45,7 @@ body{
   padding: 0.66rem;
   cursor: pointer;
   color: #fff;
-  background: #000;
+  background: #13265E;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -126,7 +126,7 @@ nav{
   margin-top: 10px;
   border-radius: 8px;
   padding: 0.5rem 1rem 1rem 3rem;
-  background: rgb(37, 37, 37);
+  background: #13265E;
 }
 .promo_card h1, .promo_card span, button{
   margin: 10px;

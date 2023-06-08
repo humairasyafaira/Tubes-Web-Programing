@@ -13,8 +13,8 @@
 
 body {
 font-family: 'Poppins', sans-serif;
-background-color: black;
-color: white;
+background-color: white;
+color: black;
 }
 
 .navbar {
@@ -26,8 +26,8 @@ position: fixed;
 top: 0;
 left: 0;
 right: 0;
-border-bottom: 1px #A3A5AB ;
-background-color: #A3A5AB;
+border-bottom: 1px #13265E ;
+background-color: #13265E;
 }
 
 .navbar .navbar-logo img {
@@ -38,7 +38,7 @@ background-color: #A3A5AB;
 
 .navbar .navbar-nav a {
 
-    color: black;
+    color: white;
     font-size: 20px;
     margin: 0px 20px;
     display: inline-block;

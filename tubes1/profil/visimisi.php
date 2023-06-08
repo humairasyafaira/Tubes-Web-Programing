@@ -30,9 +30,9 @@
     <div class="navbar-nav">
   
         <a href="../index.php">Beranda</a>
-        <a href="#profil">Profil</a>
-        <a href="#berita">Berita</a>
-        <a href="#Layanan">Layanan Publik</a>
+        <a href="../index.php">Profil</a>
+        <a href="../index.php">Berita</a>
+        <a href="../index.php">Layanan Publik</a>
   
     </div>
 
@@ -54,7 +54,7 @@
     <p>"Menjadi kota yang berkelanjutan, inklusif, dan inovatif, di mana setiap warga dapat hidup dengan kualitas hidup yang tinggi dan memiliki peluang yang adil untuk berkembang."</p>
   </div>
 
-  <div class="visi">
+  <div class="misi">
     <h1>MISI :</h1>
     <ul>
         <li>Meningkatkan perekonomian kota dengan menciptakan lapangan kerja yang berkelanjutan, mendorong pertumbuhan sektor industri, dan mendukung kewirausahaan lokal.</li>
