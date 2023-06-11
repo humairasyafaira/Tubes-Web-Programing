@@ -111,10 +111,16 @@ h1{
   text-decoration: none;
 }
 
-
-
-
-  
+.footer {
+  background-color:  #13265E ;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(186, 183, 183);
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+   
 
   
   

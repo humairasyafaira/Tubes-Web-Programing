@@ -68,28 +68,9 @@
             Dalam kurun waktu kepemimpinannya,  Yamazaki Kento  berkomitmen untuk terus bekerja keras demi kemajuan kota ini. Ia akan melanjutkan program-program yang sudah berjalan dengan baik, serta mengimplementasikan inovasi-inovasi baru untuk menjawab tantangan dan peluang yang ada.
             Sebagai Walikota, Yamazaki Kento  adalah sosok yang inspiratif dan penuh dedikasi. Ia terus berupaya membangun kota ini menjadi tempat yang nyaman, inklusif, dan berkembang untuk seluruh warganya. Dengan kepemimpinan yang tangguh dan visi yang jelas, Yamazaki Kento  berharap kota ini dapat menjadi contoh bagi kota-kota lain dalam hal pembangunan yang berkelanjutan dan kesejahteraan masyarakat.</p>
 
-            <div class="profil-walikota">
-
-<div class="wakil-walikota">
-        <h2>JOHN DOE</h2>
-        <h1>wakil Wali Kota Sizelton</h1>
-        <h4>2021-2025</h4>
-    <img src="img/wakilwalikota.png" alt="" width= 350px>
-    <div class="teks-walikota ">
             
-    </div>
-    
-    
-</div>
-<p>John Doe adalah seorang tokoh yang berdedikasi dan berpengalaman dalam pelayanan publik. Ia terpilih sebagai Walikota kota ini untuk periode 2021-2025. Dengan visi dan komitmen yang kuat, John Doe bertekad untuk mengembangkan dan memajukan kota ini dalam berbagai aspek.
 
-Sebagai seorang pemimpin, John Doe memiliki berbagai keahlian dan kualitas kepemimpinan yang membuatnya mampu menjalankan tugasnya dengan baik. Ia memiliki pemahaman yang mendalam tentang kebijakan pemerintahan, pembangunan infrastruktur, dan pengelolaan sumber daya yang berkelanjutan. Selain itu, kepemimpinannya yang visioner dan berorientasi pada pelayanan masyarakat membuatnya dihormati dan dipercaya oleh warga kota.
 
-Di bawah kepemimpinan John Doe, kota ini telah mencapai berbagai prestasi dan kemajuan. Beberapa program yang telah dilaksanakan termasuk pengembangan infrastruktur yang memadai, peningkatan kualitas pendidikan, pembangunan sarana dan prasarana kesehatan yang modern, serta pemberdayaan masyarakat dalam berbagai bidang.
-
-Selain itu, John Doe juga memberikan perhatian khusus pada isu lingkungan dan keberlanjutan. Ia mempromosikan kebijakan ramah lingkungan dan penggunaan energi terbarukan untuk mengurangi dampak negatif terhadap lingkungan.
-
-Sebagai seorang pemimpin yang inklusif, John Doe aktif dalam berinteraksi dengan masyarakat. Ia sering mengadakan pertemuan dengan warga kota, mendengarkan aspirasi dan masukan mereka, serta melibatkan mereka dalam proses pengambilan keputusan. Hal ini menciptakan iklim partisipatif dan pemerintahan yang transparan.</p>
 </div>
 
 </body>

@@ -97,3 +97,45 @@ function ubah($data){
             mysqli_query($conn, $query);
             return mysqli_affected_rows($conn);
 }
+
+function register($data){
+    $conn = koneksi();
+    $fullname = mysqli_real_escape_string($conn, $data['nama']);
+    $username = strtolower(stripcslashes($data['username']));
+    $email = mysqli_real_escape_string($conn, $data['email']);
+    $password = mysqli_real_escape_string($conn, $data['password']);
+    $password2 = mysqli_real_escape_string($conn, $data['password2']);
+    $checkUser = query("SELECT * FROM user WHERE username = '$username'");
+    $level = 2;
+
+    if($checkUser){
+        echo "
+        <script>
+            alert('Username sudah digunakan!');
+            alert('Silahkan coba dengan username lain');
+        </script>
+        ";
+        return false;
+    }
+
+    if($password !== $password2){
+        echo "
+        <script>
+            alert('Password tidak sesuai');
+        </script
+        ";
+        return false;
+    }
+
+    $password = password_hash($password, PASSWORD_DEFAULT);
+    mysqli_query($conn, "INSERT INTO user VALUES (NULL, '$fullname', '$username', '$password', '$email', $level)");
+    return mysqli_affected_rows($conn);
+}
+
+function cari($keyword){
+    $query = "SELECT * FROM berita
+                WHERE
+            kategori LIKE '%$keyword%' OR
+            judul LIKE '%$keyword%'";
+    return query($query);
+}

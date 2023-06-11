@@ -1,8 +1,12 @@
-<?php 
+<?php
 
 require '../function.php';
 
 $query = query("SELECT * FROM berita");
+
+if(isset($_POST['cari'])){
+  $query = cari($_POST['keyword']);
+}
 
 ?>
 <!DOCTYPE html>
@@ -21,12 +25,17 @@ $query = query("SELECT * FROM berita");
   <header class="header">
     <div class="logo">
       <a href="#">Admin</a>
-      <div class="search_box">
-        <input type="text" placeholder="Search ">
-        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-      </div>
+      <form action="" method="post">
+        <div class="search_box">
+          <input type="text" name="keyword" placeholder="Search ">
+          <button type="submit" name="cari" style="margin-left: -20px;"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+        </div>
+      </form>
       <div class="navbar-nav">
         <a href="#beranda">Beranda</a>
+      </div>
+      <div class="navbar-nav">
+        <a href="../login/logout.php">Logout</a>
       </div>
     </div>
 
@@ -66,13 +75,13 @@ $query = query("SELECT * FROM berita");
             </thead>
             <tbody>
               <?php $i = 1; ?>
-              <?php foreach($query as $berita): ?> 
-              <tr>
-                <td><?= $i++; ?></td>
-                <td><?= $berita['judul']; ?></td>
-                <td><img src="../img/uploaded/<?= $berita['gambar']; ?>" alt="<?= $berita['gambar']; ?>" width="100px"></td>
-                <td><?= $berita['isi']; ?></td>
-              </tr>
+              <?php foreach ($query as $berita) : ?>
+                <tr>
+                  <td><?= $i++; ?></td>
+                  <td><?= $berita['judul']; ?></td>
+                  <td><img src="../img/uploaded/<?= $berita['gambar']; ?>" alt="<?= $berita['gambar']; ?>" width="100px"></td>
+                  <td><?= substr_replace($berita['isi'], '...', 100); ?></td>
+                </tr>
               <?php endforeach; ?>
             </tbody>
           </table>

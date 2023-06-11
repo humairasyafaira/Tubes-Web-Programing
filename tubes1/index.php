@@ -1,3 +1,9 @@
+<?php 
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -32,7 +38,11 @@
         <a href="#profil">Profil</a>
         <a href="#berita">Berita</a>
         <a href="#Layanan">Layanan Publik</a>
+        <?php if(isset($_SESSION['login'])): ?>
+            <a href="login/logout.php">Logout</a>
+        <?php else: ?>
         <a href="login/login.php">Login</a>
+        <?php endif; ?>
     </div>
 
     <div class= "navbar-icons">
@@ -110,38 +120,34 @@
 <!--layanan publik  -->
 <div id="Layanan"></div>
 <h1><b>Layanan publik</b></h1>
+<div class="layanan-publik">
+<div class="layanan-penduduk">
+    <a href="https://jabarprov.go.id/layanan/kependudukan-dan-tempat-tinggal?nama=Kependudukan%20dan%20Tempat%20Tinggal&kategori=kependudukan">
+        <img src="img/lp penduduk.png" alt="" width= 100px>
+        <h3>Layanan kependudukan</h3>
+        <p style="text-align: center;">
+            Layanan pengecekan data kependudukan 
+            berbasis Nomor Induk Kependudukan 
+            (NIK) dan melakukan pengaduan terkait 
+            data kependudukan.
+        </p>
+    </a>
+</div>
 
- <div class="layanan-publik">
- 
-     <div class="layanan-penduduk">
-         <a href="https://jabarprov.go.id/layanan/kependudukan-dan-tempat-tinggal?nama=Kependudukan%20dan%20Tempat%20Tinggal&kategori=kependudukan">
-            <img src="img/lp penduduk.png" alt="" width= 100px>
-            <h3>Layanan kependudukan</h3>
-            <p style="text-align: center;">
-                Layanan pengecekan data kependudukan 
-                berbasis Nomor Induk Kependudukan 
-                (NIK) dan melakukan pengaduan terkait 
-                data kependudukan.
-            </p>
-        </a>
+<div class="layanan-kesehatan">
+    <a href="https://jabarprov.go.id/layanan/kesehatan?nama=Kesehatan&kategori=kesehatan"><img src="img/lp kesehatan.png" alt="" width= 100px>
+        <h3>Layanan kesehatan</h3>
 
-            
-     </div>
+        <p style="text-align: center;">
+            Memberikan pelayanan pemeriksaan 
+            kesehatan.  
+        </p>
+    </a>
+</div>
 
-     <div class="layanan-kesehatan">
-        <a href="https://jabarprov.go.id/layanan/kesehatan?nama=Kesehatan&kategori=kesehatan"><img src="img/lp kesehatan.png" alt="" width= 100px>
-            <h3>Layanan kesehatan</h3>
-
-            <p style="text-align: center;">
-                Memberikan pelayanan pemeriksaan 
-                kesehatan.  
-            </a>
-           
-    </div>
-
-    <div class="layanan-pendidikan">
-        <a href="https://jabarprov.go.id/layanan/pendidikan-dan-pembelajaran?nama=Pendidikan%20dan%20Pembelajaran&kategori=pendidikan"><img src="img/lp pendidikan.png" alt="" width= 100px>
-            <h3>Layanan pendidikan</h3>
+<div class="layanan-pendidikan">
+    <a href="https://jabarprov.go.id/layanan/pendidikan-dan-pembelajaran?nama=Pendidikan%20dan%20Pembelajaran&kategori=pendidikan"><img src="img/lp pendidikan.png" alt="" width= 100px>
+        <h3>Layanan pendidikan</h3>
 
         <p style="text-align: center;">
             Menciptakan sistem penerimaan
@@ -150,31 +156,44 @@
             dan akuntabel, serta meningkatkan
             mutu layanan pendidikan yang 
             berkualitas dan daya saing merata.
-            
-       </p>
+        </p>
     </a>
-           
-    </div>
+</div>
 
-    <div class="layanan-pekerjaan">
-        <a href="https://jabarjawara.id/"><img src="img/lp lowongan.png" alt="" width= 100px>
-            <h3>Layanan tenagakerjaan</h3>
+<div class="layanan-pekerjaan">
+    <a href="https://jabarjawara.id/"><img src="img/lp lowongan.png" alt="" width= 100px>
+        <h3>Layanan tenagakerjaan</h3>
 
         <p style="text-align: center;">
-            memberikan informasi seputar 
+            Memberikan informasi seputar 
             lowongan pekerjaan, pengembangan
-            diri dan beasiswa
-            
-       </p>
+            diri, dan beasiswa.
+        </p>
     </a>
-           
-    </div>
-            
+</div> 
+<br>
+</div>
 
+<!-- contact -->
+<!-- <div id="contact">
+<div class="contact-us">
+    <h2>contact us</h2>
+  </div>
+</div> -->
+<footer class="footer">
+    <h3>Kontak Kami</h3>
+    <p>Anda dapat menghubungi kami melalui:</p>
+    <ul>
+      <li>Email: admin@sizelton.gov</li>
+      <li>Telepon: 123-456-7890</li>
+      <li>Alamat: Jalan Pemerintah No. 123, Sizelton, Negara, <br>
+        Kode Pos: 12345</li>
+    </ul>
+  </footer>
 
+  
 
-
-
+  
 
   
 
